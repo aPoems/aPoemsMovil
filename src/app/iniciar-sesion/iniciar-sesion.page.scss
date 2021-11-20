@@ -1,0 +1,52 @@
+ion-toolbar{
+    background-color: var(--ion-color-mycolor);
+}
+.InicioSesion{
+    width: 320px;
+    height: 420px;
+    background-color: #d8baf2;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 15px;
+
+}
+.InicioSesion h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.InicioSesion label{
+    margin: 0;
+    padding: 0 0 5px;
+    font-weight: bold;
+    display: block;
+}
+
+.InicioSesion input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.InicioSesion input[type="text"],
+.InicioSesion input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.InicioSesion input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background-color: #bb9dd3;
+    color: #fff;
+    font-size: 18px;
+}
